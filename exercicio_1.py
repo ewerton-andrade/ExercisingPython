@@ -1,21 +1,25 @@
-Enunciado = """ 
+Question = """ 
 
-Exercício Resolvido de Python - POO - Programação Orientada a Objetos - Uma classe para representar uma pessoa, com os atributos privados de nome, data de nascimento e altura
+Exercício de Python - POO - Programação Orientada a Objetos - 
+Uma classe para representar uma pessoa, com os atributos privados de nome, data de nascimento e altura
 
-Pergunta/Tarefa:
+Missão:
+Crie uma classe para representar uma pessoa, com os atributos privados de nome, data de nascimento e altura. 
+Crie os métodos públicos necessários para sets e gets e também um método para imprimir todos dados de uma pessoa. 
+Crie um método para calcular a idade da pessoa.
 
-Crie uma classe para representar uma pessoa, com os atributos privados de nome, data de nascimento e altura. Crie os métodos públicos necessários para sets e gets e também um método para imprimir todos dados de uma pessoa. Crie um método para calcular a idade da pessoa.
-
-A data de nascimento pode ser informada como uma String (no formato 05/10/1982, por exemplo) e, no cálculo da idade, considere apenas o ano da data de nascimento informada.
+A data de nascimento pode ser informada como uma String (no formato 05/10/1982, por exemplo) e, no cálculo da idade, 
+considere apenas o ano da data de nascimento informada.
 
 Sua saída deverá ser parecida com:
-
 Nome: Amanda Rodrigues
 Data de Nascimento: 12/03/1972
 Altura: 1.65
 A pessoa tem 49 anos
 
 """
+
+
 ### Codigo
 
 from datetime import date
